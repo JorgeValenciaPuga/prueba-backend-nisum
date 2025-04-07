@@ -54,47 +54,6 @@ Este es un proyecto de prueba para la creación de usuarios y su gestión de tel
 }
 ```
 
-### 2. **Obtener Usuarios**
-- **URL**: `/api/usuarios`
-- **Método**: `GET`
-- **Descripción**: Este endpoint permite obtener la lista de usuarios registrados.
-
-#### **Respuesta exitosa**:
-```json
-[
-  {
-    "id": "UIID",
-    "name": "nombreusuario",
-    "email": "emailregistrado",
-    "created": "2025-04-07T16:57:58.7530123",
-    "modified": "2025-04-07T16:57:59.0350611",
-    "last_login": "2025-04-07T16:57:59.0350611",
-    "token": "token",
-    "isactive": true
-  }
-]
-```
-
-### 3. **Obtener Usuario por ID**
-- **URL**: `/api/usuarios/{id}`
-- **Método**: `GET`
-- **Descripción**: Este endpoint permite obtener los detalles de un usuario específico.
-
-#### **Respuesta exitosa**:
-```json
-{
-  "id": "UIID",
-  "name": "nombreusuario",
-  "email": "emailregistrado",
-  "created": "2025-04-07T16:57:58.7530123",
-  "modified": "2025-04-07T16:57:59.0350611",
-  "last_login": "2025-04-07T16:57:59.0350611",
-  "token": "token",
-  "isactive": true
-}
-```
-
----
 
 ## Instrucciones para probar los endpoints
 
