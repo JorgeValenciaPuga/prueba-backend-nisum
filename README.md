@@ -2,7 +2,7 @@
 # Proyecto de Backend para Creación de Usuarios
 
 ## Descripción
-Este es un proyecto de prueba para la creación de usuarios y su gestión de teléfonos, utilizando **Spring Boot** con **Java 17** y **JWT** para la autenticación. El proyecto también tiene habilitado **OpenAPI** para documentar los endpoints.
+Este es un proyecto para la creación de usuarios y su gestión de teléfonos, utilizando **Spring Boot** con **Java 17** y **JWT** para la autenticación. El proyecto también tiene habilitado **OpenAPI** para documentar los endpoints.
 
 ## Configuración
 1. Asegúrate de tener **Java 17** y **Maven** instalados en tu máquina.
